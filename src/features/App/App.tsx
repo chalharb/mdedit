@@ -1,7 +1,7 @@
 import React from 'react';
-import Hero from './features/Hero';
-import Heading from './components/Heading';
-import Container from './components/Container';
+import Hero from '../Hero';
+import Heading from '../../components/Heading';
+import Container from '../../components/Container';
 
 function App() {
   return (

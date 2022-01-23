@@ -12,7 +12,7 @@ jobs:
     name: Test and Build Project
     runs-on: ubuntu-latest
     steps:
-      -name: Checkout Project
+      - name: Checkout Project
        uses: actions/checkout@v2
       
       - name: Install Node

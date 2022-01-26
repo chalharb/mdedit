@@ -21,14 +21,27 @@ export const THEME_SIZES = {
 };
 
 export const BREAKPOINTS = {
-  md: "480px",
-  lg: "768px",
-  xl: "992px",
-  xxl: "1200px",
+  sm: "576px",
+  md: "768px",
+  lg: "992px",
+  xl: "1200px",
+  xxl: "1400px",
+  xxxl: "1800px",
+};
+
+export const CONTAINER_WIDTHS = {
+  xs: "100%",
+  sm: "540px",
+  md: "720px",
+  lg: "960px",
+  xl: "1140px",
+  xxl: "1320px",
+  xxxl: "1600px",
 };
 
 export const theme = {
   colors: THEME_COLORS,
   sizes: THEME_SIZES,
   breakpoints: BREAKPOINTS,
+  containerWidths: CONTAINER_WIDTHS,
 };

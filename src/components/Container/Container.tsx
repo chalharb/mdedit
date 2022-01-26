@@ -1,10 +1,9 @@
-import React from 'react';
-import { ContainerProps } from './models';
-import { StyledContainer } from './styled';
+import React from "react";
+import { ContainerProps } from "./models";
+import { StyledContainer } from "./styled";
 
-const Hero: React.FC<ContainerProps> = ({
-    children,
-    ...props
-}) => <StyledContainer {...props}>{children}</StyledContainer>;
+const Container: React.FC<ContainerProps> = ({ children, ...props }) => (
+  <StyledContainer {...props}>{children}</StyledContainer>
+);
 
-export default Hero;
+export default Container;
